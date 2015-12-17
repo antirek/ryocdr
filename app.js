@@ -23,4 +23,4 @@ app.get('/', function (req, res) {
 
 app.use(express.static(__dirname + '/public'));
 
-app.listen(process.env.PORT || 9030);
+app.listen(process.env.PORT || config.port);

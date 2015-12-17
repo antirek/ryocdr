@@ -13,6 +13,8 @@
 
 > bower install
 
+> npm run build
+
 
 ## Run
 
