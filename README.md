@@ -1,13 +1,24 @@
-# Viola CDR (fork WebCDR)
+# Viola CDR 
 
-## интерфейс промотра CDR и прослушивания записей звонков для Asterisk
+(fork & cut [WebCDR](https://github.com/ipoddubny/webcdr))
+
+## интерфейс проcмотра CDR и прослушивания записей звонков Asterisk
 
 ### Возможности
 
 - просмотр CDR, с фильтрацией по времени, номеру телефона, статусу
 - встроенный HTML5/flash плеер для прослушивания записей звонков
 
+
+## Screen 
+
+![Demo](https://raw.githubusercontent.com/antirek/viola-cdr/master/images/demo.png)
+
 ## Install
+
+> git clone https://github.com/antirek/viola-cdr.git
+
+> cd viola-cdr
 
 > npm install
 
@@ -21,7 +32,12 @@
 > node app.js
 
 
+## Config 
+
+check settings in config.ini
+
+
 ## Thanks 
 
-Ivan Poddubny (https://github.com/ipoddubny/webcdr)
+[Ivan Poddubny](https://github.com/ipoddubny)
 
