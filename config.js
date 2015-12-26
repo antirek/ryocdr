@@ -4,11 +4,11 @@ module.exports = {
   port: 9030,
   recordspath:"/var/records",
   db: {
-    client = mysql,
+    client: "mysql",
     connection: {
       host: "127.0.0.1",
       user: "root",
-      password: "",
+      password: "1234",
       database: "cdr",
       charset:"utf8"
     },

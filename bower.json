@@ -1,8 +1,8 @@
 {
-  "name": "webcdr",
-  "version": "0.0.0",
+  "name": "viola-cdr",
+  "version": "0.0.1",
   "authors": [
-    "Ivan Poddubny <ivan.poddubny@gmail.com>"
+    "Sergey Dmitriev <serge.dmitriev@gmail.com>"
   ],
   "license": "MIT",
   "private": true,

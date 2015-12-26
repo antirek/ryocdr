@@ -34,8 +34,12 @@
 
 ## Config 
 
-check settings in config.ini
+check settings in config.js
 
+
+## Reqs
+
+Node 4
 
 ## Thanks 
 
