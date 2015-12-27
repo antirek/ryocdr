@@ -23,7 +23,7 @@ validate(function (err) {
   app.use(bodyParser());
   app.use(cookieParser());
 
-  app.use('/api', require('./lib/api'));
+  app.use('/api', require('./lib/api')(config));
   app.use('/bower_components', express["static"](__dirname + "/bower_components"));
 
   app.get('/', function (req, res) {
