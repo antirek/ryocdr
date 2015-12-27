@@ -15,5 +15,8 @@ module.exports = {
   },
   cdr: {
     table: "cdr"
-  }
+  },
+  auth: true,
+  username: 'admin',
+  password: 'password'
 };
