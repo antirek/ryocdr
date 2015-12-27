@@ -11,10 +11,6 @@ module.exports = {
       password: "1234",
       database: "cdr",
       charset:"utf8"
-    },
-    pool: {
-      min: 0,
-      max: 10
     }
   },
   cdr: {
