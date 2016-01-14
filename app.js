@@ -4,6 +4,7 @@ var configfile = process.env.VIOLA_CDR_CONFIG || './config';
 
 var fileExists = require('file-exists');
 var conf = configfile + '.js';
+console.log('use conf file:', conf);
 
 if (fileExists(conf)) {
     var config = require(configfile);
