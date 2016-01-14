@@ -1,4 +1,4 @@
-#!/usr/bin/nodejs
+#!/usr/bin/node
 
 var configfile = process.env.VIOLA_CDR_CONFIG || './config';
 
