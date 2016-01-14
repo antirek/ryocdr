@@ -34,6 +34,9 @@
 
 ## Config 
 
+set env var VIOLA_CDR_CONFIG as path to require
+
+
 check settings in config.js
 
 

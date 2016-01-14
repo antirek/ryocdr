@@ -12,8 +12,6 @@ var ConfigSchema = require('./lib/configSchema');
 var app = function (config) {
   var app = null;
 
-  
-
   var validate = function (callback) {
     Joi.validate(config, ConfigSchema, callback);
   };

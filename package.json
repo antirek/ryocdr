@@ -25,6 +25,7 @@
     "cookie-session": "^1.2.0",
     "express": "^4.13.0",
     "express-session": "^1.11.0",
+    "file-exists": "^1.0.0",
     "glob": "^5.0.0",
     "http-auth": "^2.2.8",
     "joi": "^7.0.1",
@@ -92,5 +93,8 @@
     "ignore": [
       "public/js/vendor/"
     ]
+  },
+  "bin": {
+    "violacdr": "./app.js"
   }
 }
