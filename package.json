@@ -1,6 +1,6 @@
 {
   "name": "viola-cdr",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Viola CDR: Asterisk CDR viewer",
   "main": "app.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "build": "browserify public/js/main.js -o public/js/build/bundle.js",
     "build-dbg": "browserify public/js/main.js -d -o public/js/build/bundle.js",
     "test": "semistandard",
-    "postinstall": "chmod +x ./postinstall.sh && ./postinstall.sh"
+    "postinstall": "./postinstall.sh"
   },
   "author": "Serge Dmitriev <serge.dmitriev@gmail.com>",
   "license": "MIT",
