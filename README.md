@@ -14,7 +14,12 @@
 
 ![Demo](https://raw.githubusercontent.com/antirek/viola-cdr/master/images/demo.png)
 
+
 ## Install
+
+> npm install -g --unsafe violacdr
+
+OR
 
 > git clone https://github.com/antirek/viola-cdr.git
 
@@ -28,6 +33,14 @@
 
 
 ## Run
+
+> violacdr
+
+OR
+
+> pm2 start /usr/local/bin/violacdr
+
+OR
 
 > node app.js
 
