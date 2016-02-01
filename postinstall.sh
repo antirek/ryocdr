@@ -1,5 +1,5 @@
 #!/bin/bash
 
-mkdir /etc/viola-cdr && \
-chmod 0777 /etc/viola-cdr && \
-cp ./config.js /etc/viola-cdr/config.js
+sudo mkdir -p -m 0777 /etc/viola-cdr && \
+sudo chmod 0777 /etc/viola-cdr && \
+sudo cp ./config.js /etc/viola-cdr/config.js
