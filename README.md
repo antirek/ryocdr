@@ -23,7 +23,7 @@
 
 > npm install
 
-> bower install
+> bower install [--allow-root]
 
 > npm run build
 
