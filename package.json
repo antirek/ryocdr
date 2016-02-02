@@ -1,5 +1,5 @@
 {
-  "name": "viola-cdr",
+  "name": "ryocdr",
   "version": "0.0.8",
   "description": "Viola CDR: Asterisk CDR viewer",
   "main": "app.js",
@@ -95,6 +95,6 @@
     ]
   },
   "bin": {
-    "violacdr": "./app.js"
+    "ryocdr": "./app.js"
   }
 }

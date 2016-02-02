@@ -1,4 +1,4 @@
-# Viola CDR 
+# Ryo CDR 
 
 (fork & cut [WebCDR](https://github.com/ipoddubny/webcdr))
 
@@ -12,18 +12,18 @@
 
 ## Screen 
 
-![Demo](https://raw.githubusercontent.com/antirek/viola-cdr/master/images/demo.png)
+![Demo](https://raw.githubusercontent.com/antirek/ryocdr/master/images/demo.png)
 
 
 ## Install
 
-> npm install -g --unsafe violacdr
+> npm install -g --unsafe ryocdr
 
 OR
 
-> git clone https://github.com/antirek/viola-cdr.git
+> git clone https://github.com/antirek/ryocdr.git
 
-> cd viola-cdr
+> cd ryocdr
 
 > npm install
 
@@ -34,11 +34,11 @@ OR
 
 ## Run
 
-> violacdr
+> ryocdr
 
 OR
 
-> pm2 start /usr/local/bin/violacdr
+> pm2 start /usr/local/bin/ryocdr
 
 OR
 
@@ -47,7 +47,7 @@ OR
 
 ## Config 
 
-set env var VIOLA_CDR_CONFIG as path to require
+set env var RYOCDR_CONFIG as path to require
 
 
 check settings in config.js
@@ -60,4 +60,3 @@ Node 4
 ## Thanks 
 
 [Ivan Poddubny](https://github.com/ipoddubny)
-

@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-var configfile = process.env.VIOLA_CDR_CONFIG || './config';
+var configfile = process.env.RYOCDR_CONFIG || './config';
 
 var fileExists = require('file-exists');
 var conf = configfile + '.js';
