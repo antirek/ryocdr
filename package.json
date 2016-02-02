@@ -1,7 +1,7 @@
 {
   "name": "ryocdr",
   "version": "0.0.8",
-  "description": "Viola CDR: Asterisk CDR viewer",
+  "description": "Ryo CDR: Asterisk CDR viewer",
   "main": "app.js",
   "scripts": {
     "watch": "watchify public/js/main.js -o public/js/build/bundle.js -v",
