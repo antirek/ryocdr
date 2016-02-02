@@ -11,6 +11,7 @@
     "test": "semistandard",
     "postinstall": "./postinstall.sh"
   },
+  "repository": "https://github.com/antirek/ryocdr.git",
   "author": "Serge Dmitriev <serge.dmitriev@gmail.com>",
   "license": "MIT",
   "dependencies": {
