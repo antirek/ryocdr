@@ -17,10 +17,6 @@
 
 ## Install
 
-> npm install -g --unsafe ryocdr
-
-OR
-
 > git clone https://github.com/antirek/ryocdr.git
 
 > cd ryocdr
@@ -34,21 +30,12 @@ OR
 
 ## Run
 
-> ryocdr
-
-OR
-
-> pm2 start /usr/local/bin/ryocdr
-
-OR
-
 > node app.js
 
 
 ## Config 
 
 set env var RYOCDR_CONFIG as path to require
-
 
 check settings in config.js
 

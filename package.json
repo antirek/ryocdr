@@ -1,6 +1,6 @@
 {
   "name": "ryocdr",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Ryo CDR: Asterisk CDR viewer",
   "main": "app.js",
   "scripts": {
@@ -8,8 +8,7 @@
     "watch-dbg": "watchify public/js/main.js -d -o public/js/build/bundle.js -v",
     "build": "browserify public/js/main.js -o public/js/build/bundle.js",
     "build-dbg": "browserify public/js/main.js -d -o public/js/build/bundle.js",
-    "test": "semistandard",
-    "postinstall": "./postinstall.sh"
+    "test": "semistandard"
   },
   "repository": "https://github.com/antirek/ryocdr.git",
   "author": "Serge Dmitriev <serge.dmitriev@gmail.com>",
@@ -94,8 +93,5 @@
     "ignore": [
       "public/js/vendor/"
     ]
-  },
-  "bin": {
-    "ryocdr": "./app.js"
   }
 }
