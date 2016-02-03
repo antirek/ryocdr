@@ -1,6 +1,6 @@
 module.exports = {
   tz:"+0400",
-  port: 9031,
+  port: 9030,
   recordspath:"/var/records",
   db: {
     client: "mysql",
