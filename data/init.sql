@@ -22,7 +22,7 @@ CREATE TABLE `cdr` (
    `peeraccount` VARCHAR(20) NOT NULL DEFAULT '',
    `linkedid` VARCHAR(32) NOT NULL DEFAULT '',
    `sequence` INT(11) NOT NULL DEFAULT '0',
-   `record` VARCHAR(50) NOT NULL DEFAULT '',
+   `record` VARCHAR(255) NOT NULL DEFAULT '',
    PRIMARY KEY (`id`),
    INDEX `calldate` (`calldate`),
    INDEX `dst` (`dst`),
