@@ -1,6 +1,6 @@
 {
   "name": "ryocdr",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "authors": [
     "Sergey Dmitriev <serge.dmitriev@gmail.com>"
   ],
@@ -21,6 +21,7 @@
     "bootstrap-select": "~1.5.2",
     "bootstrap-daterangepicker": "~2.0.0",
     "audiojs": "*",
-    "font-awesome": "~4.2.0"
+    "font-awesome": "~4.2.0",
+    "underscore": "1.5.2"
   }
 }

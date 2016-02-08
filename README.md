@@ -17,11 +17,11 @@
 
 ## Install
 
-> wget https://github.com/antirek/ryocdr/archive/v0.0.10.tar.gz
+> wget https://github.com/antirek/ryocdr/archive/v0.0.11.tar.gz
 
-> tar -xzf v0.0.10.tar.gz
+> tar -xzf v0.0.11.tar.gz
 
-> cd ryocdr-0.0.10
+> cd ryocdr-0.0.11
 
 > npm install
 
