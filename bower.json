@@ -22,5 +22,8 @@
     "bootstrap-daterangepicker": "~2.0.0",
     "audiojs": "*",
     "font-awesome": "~4.2.0"    
+  },
+  "resolutions": {
+    "underscore": "~1.5.2"
   }
 }
