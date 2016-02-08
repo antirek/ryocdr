@@ -1,6 +1,6 @@
 {
   "name": "ryocdr",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Ryo CDR: Asterisk CDR viewer",
   "main": "app.js",
   "scripts": {
@@ -15,13 +15,10 @@
   "license": "MIT",
   "dependencies": {
     "backbone": "^1.2.1",
-    "backbone.marionette": "^2.4.2",
-    "bcryptjs": "^2.2.0",
+    "backbone.marionette": "^2.4.2",    
     "bluebird": "^2.9.0",
     "body-parser": "^1.13.3",
-    "bookshelf": "^0.8.0",
-    "brfs": "^1.4.0",
-    "compression": "^1.5.0",
+    "bookshelf": "^0.8.0",        
     "cookie-parser": "^1.3.0",
     "cookie-session": "^1.2.0",
     "express": "^4.13.0",

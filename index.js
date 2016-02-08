@@ -20,13 +20,13 @@ var app = function (config) {
 
     var basic = auth.basic({
         realm: config.realm
-      }, function (username, password, callback) { // Custom authentication method. 
+      }, function (username, password, callback) {
         callback(username === config.username && password === config.password);
       }
     );
 
     app = express();
-    app.use(morgan('dev')); // logger
+    app.use(morgan('dev'));
     app.use(compress());
     app.use(bodyParser());
     app.use(cookieParser());
